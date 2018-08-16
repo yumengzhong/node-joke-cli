@@ -1,10 +1,10 @@
 {
-  "name": "joke",
+  "name": "ymz-joke",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "joke": "bin/index.js"
+    "ymz-joke": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "colors": "^1.1.2",
-    "superagent": "^3.8.2"
+    "colors": "^1.3.1",
+    "superagent": "^3.8.3"
   }
 }

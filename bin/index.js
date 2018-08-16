@@ -7,11 +7,13 @@ const colors = require('colors')
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    prompt: ' 😆 😆 您正在使用joke-cli,按下回车查看笑话 😜 >>>'
+    prompt: ' 😆 😆 您正在使用ymz-joke,按下回车查看笑话 😜 >>>'
 })
 let url = 'http://www.qiushibaike.com/text/page/'
 let page = 1
-
+let argv = process.argv.slice(2)
+// console.log(`hi, ${argv}`)
+// console.log(JSON.stringify(process.argv, null, 2))
 // 使用数组来存放笑话
 let jokeStories = []
 // 载入笑话并存入数组中
